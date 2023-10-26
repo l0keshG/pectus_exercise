@@ -4,7 +4,10 @@ pipeline {
         stage('build') {
             steps {
                 sh 'go version'
-                sh "echo 'hello'"
+                sh 'echo "hello"'
+                sh 'mkdir direct'
+                sh 'cd direct'
+                sh 'pwd'
             }
         }
     }
