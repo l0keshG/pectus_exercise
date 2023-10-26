@@ -18,3 +18,4 @@ requirements:
     - pip
   run:
     - python
+    - pandas
